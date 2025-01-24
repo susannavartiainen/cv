@@ -1,1 +1,135 @@
-
+body {
+    font-family: "Montserrat", sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background-color: #ddf2ff;
+  }
+  
+  .container {
+    width: 80%;
+    margin: 0 auto;
+    background: #fff;
+    padding: 20px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  header {
+    text-align: center;
+    margin-bottom: 20px;
+      color: #373966; 
+  }
+  
+  header h1 {
+    margin: 0;
+    color: #373966; 
+    font-family: "Montserrat", sans-serif;
+  }
+  
+  h1 {
+    color: #373966; 
+      font-family: "Montserrat", sans-serif;
+  }
+  
+  h2 {
+    color: #373966; 
+  }
+  
+  h4 {
+    font-size: 1 px; 
+    color: #ffffff; 
+  }
+  
+  /* Profiiliosio */
+  .profile {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+  
+  .profile img {
+    border-radius: 50%;
+    margin-right: 20px;
+    width: 100px;
+    height: 100px;
+  }
+  
+  .profile div {
+    flex: 1;
+  }
+  
+  /* Työkokemus ja muut osiot */
+  section {
+    margin-bottom: 20px;
+  }
+  
+  section h2 {
+    border-bottom: 2px solid #333;
+    padding-bottom: 5px;
+    margin-bottom: 10px;
+    color: #555;
+  }
+  
+  ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  ul li {
+    margin-bottom: 10px;
+  }
+  
+  /* Alaluettelo työkokemukselle */
+  section ul li p {
+      font-family: "Arial", sans-serif;
+    margin-top: 10px;
+    margin-bottom: 5px;
+  }
+  
+  section ul ul {
+    margin-left: 20px;
+    list-style-type: disc;
+  }
+  
+  section ul ul li {
+    margin-bottom: 5px;
+  }
+  
+  /* Yhteensopivuuden varmistaminen */
+  section ul ul li::marker {
+    color: #555;
+  }
+  
+  /* Footer ja yhteensopivuus */
+  footer {
+    z-index: 10; /* Varmistetaan, että footer pysyy muiden elementtien päällä */
+  }
+  
+  /* älä koske */
+  footer {
+    color: white;
+    padding: 0px;
+    text-align: center;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    font-family: "Arial", sans-serif;
+    font-weight: 200;
+  }
+  
+  #footerbar {
+    font-family: "Arial", sans-serif;
+    font-size: 1.2rem; /* Pieni fonttikoko, mutta suurempi kuin aiemmin */
+    text-align: center;
+    color: #fff;
+    background-color: rgba(0, 0, 0, 0.4); /* Läpinäkyvä tummempi tausta */
+    padding: 10px; /* Vähennetty padding */
+    border-radius: 6px; /* Pienemmät pyöristetyt kulmat */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3); /* Keveämpi varjo */
+    max-width: 100%; /* Leveys voi venyä koko tilan verran */
+    margin: 20px auto; /* Keskitetty ja vähemmän väliä */
+    display: flex; /* Käytetään flexboxia */
+    justify-content: center; /* Kohdistaa sisällön keskelle */
+    align-items: center; /* Varmistaa, että sisältö on pystysuunnassa keskellä */
+    gap: 10px; /* Asettaa väliä elementtien välillä */
+  }  
